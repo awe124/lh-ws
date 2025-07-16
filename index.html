@@ -12,7 +12,8 @@
       font-family: Arial, sans-serif;
     }
     img {
-      width: 95%;
+      width: 100%;
+      max-width: 600px;
       height: auto;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -22,18 +23,28 @@
     }
     .apply-btn {
       display: inline-block;
-      padding: 12px 30px;
+      padding: 15px 40px;
       background-color: #4f80f2;
       color: #ffff00;
       text-decoration: none;
-      border-radius: 25px;
-      font-size: 18px;
+      border-radius: 30px;
+      font-size: 20px;
       font-weight: bold;
       transition: background-color 0.3s ease;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
     .apply-btn:hover {
       background-color: #3b6fd8;
+    }
+
+    @media (max-width: 768px) {
+      img {
+        max-width: 90%;
+      }
+      .apply-btn {
+        padding: 15px 35px;
+        font-size: 18px;
+      }
     }
   </style>
 </head>
