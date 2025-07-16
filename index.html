@@ -2,11 +2,11 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>이미지 페이지</title>
+  <title>빠숑 특강 안내</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
+      padding: 20px;
       text-align: center;
       background-color: #f8f8f8;
       font-family: Arial, sans-serif;
@@ -14,10 +14,33 @@
     img {
       max-width: 100%;
       height: auto;
+      max-height: 80vh;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .button-container {
+      margin-top: 20px;
+    }
+    .apply-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4A536B;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .apply-btn:hover {
+      background-color: #3a4259;
     }
   </style>
 </head>
 <body>
   <img src="poster.jpg" alt="빠숑특강포스터">
+
+  <div class="button-container">
+    <a href="https://www.lh-ws-a1.co.kr/sub05_01.html" class="apply-btn">빠숑 특강 무료 신청하기</a>
+  </div>
 </body>
 </html>
